@@ -4,8 +4,8 @@ an attempt to fuzz BoardShim stream write/read
 1) `git clone https://github.com/brainflow-dev/brainflow.git`
 2) `mkdir build`
 3) `cd build`
-4) cmake -DCMAKE_CXX_COMPILER=afl-clang-fast++ ..
-5) Makefile & save
+4) `cmake -DCMAKE_CXX_COMPILER=afl-clang-fast++ ..`
+5) create `Makefile` & save
 
 ```
 ##########################
