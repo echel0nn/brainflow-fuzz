@@ -24,3 +24,10 @@ test_brain: test.cpp
 ```
 6) `make test_brain`
 7) `./test` [test](./test.cpp)
+
+8) Prepare [harness.cpp](./harness.cpp)
+
+```
+test_harness: harness.cpp
+	afl-clang-fast++ -v harness.cpp $(INC) ./CMakeFiles/BoardController.dir/third_party/ant_neuro/eemagine/sdk/wrapper.cc.o -o harness  $(INCC) $(INCCC) -I../third_party/json/
+```
