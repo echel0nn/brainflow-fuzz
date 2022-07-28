@@ -2,25 +2,25 @@
 
 |crasher_name   	|  CPP EX	|  PYTHON EX|
 |---	|---	|---	|
-|3358   | (/)  	|   (x)	|
-|3358_2 | (/)  	|   (/)	|
-|30840	| (/)  	|   (/)	|
-|3318   | (/)  	|   (/)	|
-|3375 	| (/)  	|   (/)	|
-|3358_free_invalid_5   	| (/)  	| (/)  	|
-|3358_4   	|  (/) 	|   (/)	|
-|3379_free_invalid   	|  (/) 	|  (/) 	|
-|3358_free_invalid_3   	|  (/) 	|  (/) 	|
-|33728   	|  (/) 	|  (/) 	|
-|22786   	|  (x) 	|  (/) 	|
-|19030   	|  (x) 	|  (/) 	|
-|24894|  (x) 	|  (/) 	|
-|27670|  (x) 	|  (/) 	|
-|32292|  (/) 	|  (/) 	|
-|3358|  (/) 	|  (/) 	|
-|3358_2|  (/) 	|  (x) 	|
-|3358_4|  (/) 	|  (/) 	|
-|33728|  (/) 	|  (/) 	|
-|3375|  (x) 	|  (/) 	|
-|id:000016,sig:07,src:000010,time:28990834   	|  (/) 	|  (/) 	|
+|3358   | :heavy_check_mark:  	|   :white_check_mark:	|
+|3358_2 | :heavy_check_mark:  	|   :heavy_check_mark:	|
+|30840	| :heavy_check_mark:  	|   :heavy_check_mark:	|
+|3318   | :heavy_check_mark:  	|   :heavy_check_mark:	|
+|3375 	| :heavy_check_mark:  	|   :heavy_check_mark:	|
+|3358_free_invalid_5   	| :heavy_check_mark:  	| :heavy_check_mark:  	|
+|3358_4   	|  :heavy_check_mark: 	|   :heavy_check_mark:	|
+|3379_free_invalid   	|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|3358_free_invalid_3   	|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|33728   	|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|22786   	|  :white_check_mark: 	|  :heavy_check_mark: 	|
+|19030   	|  :white_check_mark: 	|  :heavy_check_mark: 	|
+|24894|  :white_check_mark: 	|  :heavy_check_mark: 	|
+|27670|  :white_check_mark: 	|  :heavy_check_mark: 	|
+|32292|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|3358|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|3358_2|  :heavy_check_mark: 	|  :white_check_mark: 	|
+|3358_4|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|33728|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
+|3375|  :white_check_mark: 	|  :heavy_check_mark: 	|
+|id:000016,sig:07,src:000010,time:28990834   	|  :heavy_check_mark: 	|  :heavy_check_mark: 	|
 
