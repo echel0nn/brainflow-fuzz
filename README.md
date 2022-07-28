@@ -54,6 +54,8 @@ test_brain: test.cpp
 1) This file also crashes `cpp` one but in python it is acting little bit weird, i couldnt manage to find the right time to analyze it to find out the root cause yet.
 You have to test this file with full path of `brainflow.py` for ex: `/home/user/brainflow.py id:000016,sig:07,src:000010,time:28990834,execs:64400173,op:MOpt_havoc,rep:8`
 
+![screen-sc](./screenshots/crash.png)
+
 # [Table of What-Crashes-Where](./STATS.md)
 
 
