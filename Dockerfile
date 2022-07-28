@@ -19,6 +19,8 @@ RUN make -j16  test_brain
 RUN make -j16  test_harness
 ADD ./fuzz.sh /app/brainflow/build/
 RUN mkdir crashers
+RUN mkdir samples
+ADD ./test.csv samples/test.csv
 ADD ./b64_14_bytes b64_14_bytes
 ADD ./b64_1168_python_crasher b64_1168_python_crasher
 RUN base64 -d b64_14_bytes > crashers/14_bytes
