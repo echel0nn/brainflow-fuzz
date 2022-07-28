@@ -1,5 +1,5 @@
 # brainflow-fuzz
-an attempt to fuzz BoardShim stream write/read 
+an attempt to fuzz stream write/read 
 
 1) `git clone https://github.com/brainflow-dev/brainflow.git`
 2) `mkdir build`
