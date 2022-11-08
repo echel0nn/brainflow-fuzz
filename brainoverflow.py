@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 import sys
+from brainflow.board_shim import BoardIds, BoardShim, BrainFlowInputParams, LogLevels
+from brainflow.data_filter import DataFilter
 import numpy as np
 import pandas as pd
-# python -m pip install brainflow
-from brainflow.board_shim import BoardShim, BrainFlowInputParams, LogLevels, BoardIds
-from brainflow.data_filter import DataFilter
-
 sample = sys.argv[1]
 
 

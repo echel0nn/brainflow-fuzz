@@ -16,21 +16,16 @@
 
 using namespace std;
 
+int main(int argc, char *argv[]) {
+  int res = 0;
+  try {
+    // traditional file input
+    BrainFlowArray<double, 2> data;
+    BrainFlowArray<double, 2> restored_data = DataFilter::read_file(argv[1]);
+  } catch (const BrainFlowException &err) {
+    BoardShim::log_message((int)LogLevels::LEVEL_ERROR, err.what());
+    res = err.exit_code;
+  }
 
-int main (int argc, char *argv[])
-{
-    int res = 0;
-    try
-    {
-        // traditional file input
-        BrainFlowArray<double, 2> data;
-        BrainFlowArray<double, 2> restored_data = DataFilter::read_file (argv[1]);
-    }
-    catch (const BrainFlowException &err)
-    {
-        BoardShim::log_message ((int)LogLevels::LEVEL_ERROR, err.what ());
-        res = err.exit_code;
-    }
-
-    return res;
+  return res;
 }
